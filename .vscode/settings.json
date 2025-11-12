@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "docfx/_site": true,
+        "docfx/api": true,
+
+        "nf.unitylibs.managers.resourcesextra/.vs/": true,
+        "nf.unitylibs.managers.resourcesextra/Library/": true,
+        "nf.unitylibs.managers.resourcesextra/Logs/": true,
+        "nf.unitylibs.managers.resourcesextra/obj/": true,
+        "nf.unitylibs.managers.resourcesextra/Temp/": true,
+        "nf.unitylibs.managers.resourcesextra/UserSettings/": true,
+        "nf.unitylibs.managers.resourcesextra/*.csproj": true,
+        "nf.unitylibs.managers.resourcesextra/*.sln": true,
+    }
+}

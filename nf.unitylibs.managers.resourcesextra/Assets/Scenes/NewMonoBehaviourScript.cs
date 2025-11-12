@@ -1,18 +1,17 @@
 using NF.UnityLibs.Managers.ResourcesExtra;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        var x = ResourcesExtraSettingsAsset.RuntimeInst.IsExist("ResourcesExtraSettingsAsset");
-        Debug.Log(x);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Assert.IsTrue(ResourcesExtraSettingsAsset.RuntimeInst.IsExist("ResourcesExtraSettingsAsset"));
+        Assert.IsFalse(ResourcesExtraSettingsAsset.RuntimeInst.IsExist("blabla"));
+
+        Resources.Load("ResourcesExtraSettingsAsset");
+        Resources.Load("blabla");
     }
 }

@@ -1,0 +1,3 @@
+ResourcesExtraSettingsAsset
+DebugUICanvas
+DebugUIPersistentCanvas

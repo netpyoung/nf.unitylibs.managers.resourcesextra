@@ -165,6 +165,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/ProjectSettings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProjectSettings.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Redirection",
       "source_relative_path": "index.md",
       "output": {

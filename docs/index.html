@@ -103,11 +103,27 @@
 </ul>
 <pre><code>https://github.com/netpyoung/nf.unitylibs.managers.resourcesextra.git?path=LocalPackage
 </code></pre>
-<h2 id="설명">설명</h2>
+<h2 id="description">Description</h2>
 <ul>
-<li>ResourcesExtraSettingsAsset.RuntimeInst.IsExist(&quot;hello&quot;); 처럼 Resources.Load없이 리소스 존재 확인가능.</li>
-<li>Resources.Load(&quot;blabla&quot;); 와 같이 blabla를 못찾았을시 경고.</li>
+<li>You can check if a resource exists without using Resources.Load, like this: <code>ResourcesExtraSettingsAsset.RuntimeInst.IsExist(&quot;hello&quot;);</code></li>
+<li>When calling <code>Resources.Load(&quot;blabla&quot;);</code>, a warning will appear if the resource blabla cannot be found.</li>
 </ul>
+<h2 id="project-settings">Project Settings</h2>
+<p><img src="../images/ProjectSettings.png" alt="../images/ProjectSettings.png"></p>
+<ul>
+<li>IsUpdateAsset : It produce <code>&lt;UnityProject&gt;/Assets/__NF/Resources/ResourcesExtraSettingsAsset.asset</code> to check resources exists and update Resources/ list.</li>
+<li>IsUpdateList : It produce <code>&lt;UnityProject&gt;/__NF/ResourcesExtra.txt</code> to diagnostic analyze.</li>
+</ul>
+<h2 id="editorconfig">.editorconfig</h2>
+<ul>
+<li>add <code>&lt;UnityProject&gt;/Assets/.editorconfig</code> like that</li>
+</ul>
+<pre><code class="lang-ini" name="Default">root = true
+
+[*.cs]
+resourceplus_namespaces = UnityEngine.Resources
+resourceplus_startswith = Load
+</code></pre>
 <p><img src="../images/NF6001.png" alt="../images/NF6001.png"></p>
 
 </article>

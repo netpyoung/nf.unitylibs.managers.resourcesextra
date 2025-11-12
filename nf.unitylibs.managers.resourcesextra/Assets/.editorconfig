@@ -1,5 +1,0 @@
-root = true
-
-[*.cs]
-resourceplus_namespaces = UnityEngine.Resources
-resourceplus_startswith = Load

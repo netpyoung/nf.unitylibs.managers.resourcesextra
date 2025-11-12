@@ -1,0 +1,52 @@
+{
+  "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsAsset_Editor.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsAsset_Editor.html",
+    "title": "Class ResourcesExtraSettingsAsset_Editor | nf.unitylibs.managers.resourcesextra",
+    "summary": "Class ResourcesExtraSettingsAsset_Editor Namespace NF.UnityLibs.Managers.ResourcesExtra.Editors public sealed class ResourcesExtraSettingsAsset_Editor : Editor Inheritance object ResourcesExtraSettingsAsset_Editor Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsProvider.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsProvider.html",
+    "title": "Class ResourcesExtraSettingsProvider | nf.unitylibs.managers.resourcesextra",
+    "summary": "Class ResourcesExtraSettingsProvider Namespace NF.UnityLibs.Managers.ResourcesExtra.Editors public sealed class ResourcesExtraSettingsProvider : SettingsProvider Inheritance object ResourcesExtraSettingsProvider Constructors ResourcesExtraSettingsProvider(string, SettingsScope, IEnumerable<string>) public ResourcesExtraSettingsProvider(string path, SettingsScope scopes, IEnumerable<string> keywords = null) Parameters path string scopes SettingsScope keywords IEnumerable<string> Methods CreateProvider() public static SettingsProvider CreateProvider() Returns SettingsProvider OnGUI(string) public override void OnGUI(string searchContext) Parameters searchContext string"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesFolderAssetPostprocessor.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesFolderAssetPostprocessor.html",
+    "title": "Class ResourcesFolderAssetPostprocessor | nf.unitylibs.managers.resourcesextra",
+    "summary": "Class ResourcesFolderAssetPostprocessor Namespace NF.UnityLibs.Managers.ResourcesExtra.Editors public sealed class ResourcesFolderAssetPostprocessor : AssetPostprocessor Inheritance object ResourcesFolderAssetPostprocessor"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.html",
+    "title": "Namespace NF.UnityLibs.Managers.ResourcesExtra.Editors | nf.unitylibs.managers.resourcesextra",
+    "summary": "Namespace NF.UnityLibs.Managers.ResourcesExtra.Editors Classes ResourcesExtraSettingsAsset_Editor ResourcesExtraSettingsProvider ResourcesFolderAssetPostprocessor"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.Item.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.Item.html",
+    "title": "Class ResourcesExtraSettingsAsset.Item | nf.unitylibs.managers.resourcesextra",
+    "summary": "Class ResourcesExtraSettingsAsset.Item Namespace NF.UnityLibs.Managers.ResourcesExtra [Serializable] public class ResourcesExtraSettingsAsset.Item Inheritance object ResourcesExtraSettingsAsset.Item Fields LoadPath public string LoadPath Field Value string RealPath public string RealPath Field Value string"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.html",
+    "title": "Class ResourcesExtraSettingsAsset | nf.unitylibs.managers.resourcesextra",
+    "summary": "Class ResourcesExtraSettingsAsset Namespace NF.UnityLibs.Managers.ResourcesExtra [Serializable] public sealed class ResourcesExtraSettingsAsset : ScriptableObject, ISerializationCallbackReceiver Inheritance object ResourcesExtraSettingsAsset Implements ISerializationCallbackReceiver Fields ASSET_NAME public const string ASSET_NAME = \"ResourcesExtraSettingsAsset\" Field Value string ASSET_PATH public static readonly string ASSET_PATH Field Value string Properties IsUpdateAsset public bool IsUpdateAsset { get; } Property Value bool IsUpdateList public bool IsUpdateList { get; } Property Value bool RuntimeInst public static ResourcesExtraSettingsAsset RuntimeInst { get; } Property Value ResourcesExtraSettingsAsset TotalCount public int TotalCount { get; } Property Value int Methods IsExist(string) public bool IsExist(string resourcePath) Parameters resourcePath string Returns bool IsExistOnUnderAsset(string) public bool IsExistOnUnderAsset(string resourcePath) Parameters resourcePath string Returns bool IsExistOnUnderPakcage(string) public bool IsExistOnUnderPakcage(string resourcePath) Parameters resourcePath string Returns bool OnAfterDeserialize() public void OnAfterDeserialize() OnBeforeSerialize() public void OnBeforeSerialize()"
+  },
+  "api/NF.UnityLibs.Managers.ResourcesExtra.html": {
+    "href": "api/NF.UnityLibs.Managers.ResourcesExtra.html",
+    "title": "Namespace NF.UnityLibs.Managers.ResourcesExtra | nf.unitylibs.managers.resourcesextra",
+    "summary": "Namespace NF.UnityLibs.Managers.ResourcesExtra Classes ResourcesExtraSettingsAsset ResourcesExtraSettingsAsset.Item"
+  },
+  "docs/index.html": {
+    "href": "docs/index.html",
+    "title": "Introduction | nf.unitylibs.managers.resourcesextra",
+    "summary": "Introduction repo upm https://docs.unity3d.com/Manual/upm-ui-giturl.html https://github.com/netpyoung/nf.unitylibs.managers.resourcesextra.git?path=LocalPackage 설명 ResourcesExtraSettingsAsset.RuntimeInst.IsExist(\"hello\"); 처럼 Resources.Load없이 리소스 존재 확인가능. Resources.Load(\"blabla\"); 와 같이 blabla를 못찾았을시 경고."
+  },
+  "docs/roslyn-diagnostic.html": {
+    "href": "docs/roslyn-diagnostic.html",
+    "title": "Roslyn Diagnostic | nf.unitylibs.managers.resourcesextra",
+    "summary": "Roslyn Diagnostic Diagnostic NF6001 'blabla' does not exist in Resources/"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "",
+    "summary": ""
+  }
+}

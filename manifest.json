@@ -1,0 +1,196 @@
+{
+  "source_base_path": "/home/runner/work/nf.unitylibs.managers.resourcesextra/nf.unitylibs.managers.resourcesextra/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsAsset_Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsAsset_Editor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsAsset_Editor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesExtraSettingsProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesFolderAssetPostprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesFolderAssetPostprocessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.Editors.ResourcesFolderAssetPostprocessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.Editors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.Editors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.Item",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra.ResourcesExtraSettingsAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Managers.ResourcesExtra.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Managers.ResourcesExtra",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/roslyn-diagnostic.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/roslyn-diagnostic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NF6001.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NF6001.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

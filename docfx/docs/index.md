@@ -3,12 +3,14 @@
 
 - [repo](https://github.com/netpyoung/nf.unitylibs.managers.resourcesextra/)
 
-## upm
+## Installation
 
-- <https://docs.unity3d.com/Manual/upm-ui-giturl.html>
+### using [UPM](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
-```
-https://github.com/netpyoung/nf.unitylibs.managers.resourcesextra.git?path=LocalPackage
+using #{version} for versioning.
+
+``` json
+"nf.unitylibs.managers.resourcesextra": "https://github.com/netpyoung/nf.unitylibs.managers.resourcesextra.git?path=LocalPackage#0.0.1"
 ```
 
 ## Description

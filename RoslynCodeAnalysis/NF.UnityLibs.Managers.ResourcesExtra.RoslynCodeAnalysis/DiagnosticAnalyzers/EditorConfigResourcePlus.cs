@@ -6,7 +6,7 @@ namespace NF.UnityLibs.Managers.ResourcesExtra.RoslynCodeAnalysis.DiagnosticAnal
     public sealed class EditorConfigResourcePlus
     {
         public string OptStartWith { get; private set; }
-        public ImmutableHashSet<string> Set { get; private set; }
+        public ImmutableHashSet<string> FullTypeNameSet { get; private set; }
 
         public bool Init(AnalyzerConfigOptions options)
         {
@@ -15,14 +15,14 @@ namespace NF.UnityLibs.Managers.ResourcesExtra.RoslynCodeAnalysis.DiagnosticAnal
                 return false;
             }
 
-            if (!options.TryGetValue("resourceplus_namespaces", out string optNamespaces))
+            if (!options.TryGetValue("resourceplus_fulltypenames", out string optFullTypeNames))
             {
                 return false;
             }
 
-            ImmutableHashSet<string> set = optNamespaces.Split(',').ToImmutableHashSet();
+            ImmutableHashSet<string> fullTypeNameSet = optFullTypeNames.Split(',').ToImmutableHashSet();
             OptStartWith = optStartWith;
-            Set = set;
+            FullTypeNameSet = fullTypeNameSet;
             return true;
         }
     }

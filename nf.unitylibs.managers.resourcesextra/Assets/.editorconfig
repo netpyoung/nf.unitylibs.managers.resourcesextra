@@ -1,5 +1,5 @@
 root = true
 
 [*.cs]
-resourceplus_namespaces = UnityEngine.Resources
+resourceplus_fulltypenames = UnityEngine.Resources,Blabla.Resources
 resourceplus_startswith = Load

@@ -66,7 +66,7 @@ namespace NF.UnityLibs.Managers.ResourcesExtra.RoslynCodeAnalysis.DiagnosticAnal
             }
 
             string fullTypeName = symbol.ContainingType.ToDisplayString();
-            if (!_editorConfigResourcePlus.Set.Contains(fullTypeName))
+            if (!_editorConfigResourcePlus.FullTypeNameSet.Contains(fullTypeName))
             {
                 return;
             }

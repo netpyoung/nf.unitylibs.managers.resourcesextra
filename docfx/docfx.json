@@ -1,0 +1,48 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../LocalPackage",
+          "files": [
+            "**/*.cs"
+          ]
+        }
+      ],
+      "allowCompilationErrors": true,
+      "filter": "filterConfig.yml",
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "nf.unitylibs.managers.resourcesextra",
+      "_appTitle": "nf.unitylibs.managers.resourcesextra",
+      "_googleAnalyticsTagId": "G-855BJNV9VD",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

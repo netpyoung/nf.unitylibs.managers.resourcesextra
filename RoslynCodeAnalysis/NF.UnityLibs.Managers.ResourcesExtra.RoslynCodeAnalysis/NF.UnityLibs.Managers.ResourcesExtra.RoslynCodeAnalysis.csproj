@@ -11,7 +11,7 @@
 	</PropertyGroup>
 
 	<Target Name="PostBuild" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
-		<Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(SolutionDir)../LocalPackage/Runtime/" />
+		<Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(SolutionDir)../LocalPackage/Analyzer/" />
 	</Target>
 
 	<ItemGroup>
